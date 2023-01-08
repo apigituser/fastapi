@@ -1,3 +1,4 @@
+import uvicorn
 from fastapi import FastAPI
 from starlette.middleware.cors import CORSMiddleware
 from .routers import post, user, auth, vote
@@ -14,4 +15,4 @@ app.include_router(vote.router)
 
 @app.get("/")
 def root():
-    return {"message": "one coffee a day, keeps the doctor away"}
+    return {"message": "one coffee a day, keeps the doctor away!!!!!!!!!!!"}

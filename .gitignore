@@ -4,3 +4,4 @@ venv/
 git-setup
 docker-compose.yml
 Dockerfile
+init.sql
